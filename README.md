@@ -2,7 +2,7 @@
 Gerar a sua apresentação de slides da escola, em segundos.
 
 ## instruções
-`npm start `
+`npm start` e
 Insira o conteúdo do slide de maneira clara. Logo em seguida forneça o número **0** . as outras opções estão presente para um atualização futura.
 ![Captura de Tela (116)](https://user-images.githubusercontent.com/67235201/105851328-afeffe80-5fc1-11eb-8cb9-4159f5ae693e.png)
 ## Resultado final
