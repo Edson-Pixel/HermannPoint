@@ -1,0 +1,19 @@
+{
+  "name": "hermannpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "edson",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "image-downloader": "^4.0.2",
+    "pptxgenjs": "^3.4.0",
+    "request": "^2.88.2",
+    "sbd": "^1.0.18"
+  }
+}
