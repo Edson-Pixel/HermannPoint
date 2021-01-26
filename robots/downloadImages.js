@@ -1,6 +1,6 @@
 var download = require("image-downloader")
 async function robot(content) {
-    function Download(options) {
+    function Download(options) { 
         return new Promise(async(resolve, reject) => {
             await download.image(options)
             resolve()

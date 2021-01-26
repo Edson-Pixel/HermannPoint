@@ -39,7 +39,7 @@ async function robot(allLinks) {
           var itensHtml = cheerio.html(homeLoad('ul'));
           var itensload = cheerio.load(itensHtml)
           var liListoffReplace = ""
-          if (itensHtml == "") {
+          if (itensHtml == "") { 
             itensHtml = home
           }
           homeLoad(itensHtml).each((i, el2) => {

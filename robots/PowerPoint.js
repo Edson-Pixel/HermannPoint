@@ -7,7 +7,7 @@ async function robot(content) {
             let slide1 = pres.addSlide("Primeira parte");
             let slide2 = pres.addSlide("Segunda parte");
             let slide3 = pres.addSlide("Terceira parte");
-            
+             
             let i_img = 1
             slide0.background = { path: "./robots/layout/layou2title.png" };
             slide0.addText(content.title, { color:'C1CCCD',x: '20%', y: '50%', w: 6, align: 'center', fontSize: 40, fontFace: 'Arial Black' });

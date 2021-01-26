@@ -1,7 +1,7 @@
 var request = require("request")
 var cheerio = require("cheerio")
 async function robot(content, Term, allSite, indexSite) {
-    function googleImagens() {
+    function googleImagens() { 
         return new Promise((resolve, reject) => {
             try {
                 request('https://www.google.com/search?hl=pt-BR&tbm=isch&sxsrf=ALeKk01ANF58wMiw3Dv9rLLgnwzcsoNQ2g%3A1609962685221&source=hp&biw=1304&bih=697&ei=vRT2X-j8CoHO5OUPs6u-0AI&q=' + Term + ' site:' + allSite[indexSite] + '&oq=' + Term + ' site:' + allSite[indexSite] + '&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOggIABCxAxCDAVCrPViKRGC5SGgAcAB4AIABxAGIAdYGkgEDMC41mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img&ved=0ahUKEwioz86viojuAhUBJ7kGHbOVDyoQ4dUDCAc&uact=5', function (error, response, body) {

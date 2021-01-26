@@ -1,6 +1,6 @@
 var sbd = require('sbd')
 function robot(content) {
-    function cleanText() {
+    function cleanText() { 
         breakSentences(content)
         limitSentences(content)
         function breakSentences() {

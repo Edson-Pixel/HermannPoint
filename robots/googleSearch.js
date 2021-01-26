@@ -1,7 +1,7 @@
 var request = require("request")
 var cheerio = require("cheerio")
 async function robot(Term, allSite, indexSite) {
-    var allLinks = []
+    var allLinks = [] 
     function googleSearch() {
         return new Promise((resolve, reject) => {
             try {
