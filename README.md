@@ -3,7 +3,7 @@ Gerar a sua apresentação de slides da escola, em segundos.
 
 # instruções
 `npm start`
-## Insira o conteúdo do slide de maneira clara. Logo em seguida forneça o número **0** . As outras opções estão presente para uma atualização futura.
+## E insira o conteúdo do slide de maneira clara. Logo em seguida forneça o número **0** . As outras opções estão presente para uma atualização futura.
 ![Captura de Tela (116)](https://user-images.githubusercontent.com/67235201/105851328-afeffe80-5fc1-11eb-8cb9-4159f5ae693e.png)
 # Resultado final
 ## A apresentação fica localizada na raiz do software
